@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: "Titillium Web", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #323232;
+}
+
+.glkn-primary-bg-color {
+    background-color: #4580c2;
+}
