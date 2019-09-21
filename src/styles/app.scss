@@ -38,7 +38,7 @@ body {
     height: 100%;
     border: ($profile-picture-background - 10) solid 1px;
     border-radius: $profile-picture-border-radius - 1px;
-    box-shadow: inset 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.5);
 
     & > img {
       height: 100%;
