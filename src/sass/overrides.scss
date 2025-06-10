@@ -1,0 +1,29 @@
+/* PrimeVue */
+
+/* Overrides to match style */
+.p-inputnumber-input {
+    width: 100%;
+}
+
+.p-card {
+    .p-card-title {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+    }
+
+    .p-card-content {
+        padding: 0 0 1.5rem 0;
+    }
+
+    .p-card-footer {
+        padding: 0;
+    }
+}
+
+:root {
+    --p-button-secondary-background: var(--p-gray-300) !important;
+    --p-tabs-tabpanel-padding: 0!important;
+
+    --p-button-padding-y: 0.25rem;
+}

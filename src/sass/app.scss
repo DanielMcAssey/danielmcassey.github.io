@@ -1,0 +1,40 @@
+@import 'vendor.scss' layer(theme);
+@import 'overrides.scss' layer(theme);
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+[x-cloak] {
+    display: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+@layer tailwind-base {
+    [type='text']:focus,input:where(:not([type])):focus,
+    [type='email']:focus,
+    [type='url']:focus,
+    [type='password']:focus,
+    [type='number']:focus,
+    [type='date']:focus,
+    [type='datetime-local']:focus,
+    [type='month']:focus,
+    [type='search']:focus,
+    [type='tel']:focus,
+    [type='time']:focus,
+    [type='week']:focus,
+    [multiple]:focus,
+    textarea:focus,
+    select:focus {
+        --tw-ring-color: var(--p-primary-color);
+        border-color: var(--tw-ring-color);
+    }
+}
