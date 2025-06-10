@@ -6,23 +6,27 @@
     <title>Software Development | GLOKON</title>
 
     <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/icons/site.webmanifest">
-    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" href="/src/assets/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/icons/favicon.svg" />
+    <link rel="shortcut icon" href="/src/assets/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/assets/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="GLOKON" />
+    <link rel="manifest" href="/src/assets/icons/site.webmanifest" />
 
     <!-- Layer Order -->
     <style>@layer tailwind-base, primevue, tailwind-utilities, theme;</style>
 
-    <!-- Fonts -->
-    <link rel="preload" as="style" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MEL49QTW0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2MEL49QTW0');
+    </script>
 </head>
-<body class="font-sans antialiased">
+<body class="font-sans antialiased bg-gray-100 dark:bg-gray-900">
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
 </body>

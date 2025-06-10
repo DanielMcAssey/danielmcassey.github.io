@@ -14,7 +14,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ['Convergence', ...defaultTheme.fontFamily.sans],
+                text: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
         },
     },

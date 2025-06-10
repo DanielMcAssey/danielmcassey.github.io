@@ -10,14 +10,14 @@ import Contact from './components/Contact.vue';
 
 <template>
     <Header />
-    <main>
-        <Hero />
-        <Services />
-        <Portfolio />
-        <Experience />
-        <Contact />
+    <main class="mt-36 space-y-24 w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl mx-auto">
+        <Hero id="home" />
+        <Services id="services" />
+        <Portfolio id="portfolio" />
+        <Experience id="experience" />
+        <Contact id="contact" />
     </main>
-    <Footer />
+    <Footer class="mt-24" />
 </template>
 
 <style scoped>
