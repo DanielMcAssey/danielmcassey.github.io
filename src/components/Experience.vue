@@ -14,10 +14,26 @@ const jobs = [
     <div>
         <SectionTitle :number="3" title="Experience" subtitle="My Work Experience" />
         <div class="mt-12">
-            <Timeline :value="jobs" align="alternate" class="w-full">
+            <Timeline :value="jobs" align="alternate" class="w-full hidden md:block">
                 <template #content="slotProps">
-                    <div class="text-white pb-6">
-                        <p class="text-primary font-bold text-sm">
+                    <div class="-mt-3 text-white bg-slate-700/30 px-2 pt-2 pb-6 rounded">
+                        <p class="text-primary font-bold text-md">
+                            {{ slotProps.item.period }}
+                        </p>
+                        <h3 class="text-3xl mt-2">{{ slotProps.item.name }}</h3>
+                        <h4 class="font-bold mt-6">{{ slotProps.item.role }}</h4>
+                        <div class="mt-2 space-y-2 text-white font-text font-light text-sm">
+                            <p v-for="descriptionItem in slotProps.item.description">
+                                {{ descriptionItem }}
+                            </p>
+                        </div>
+                    </div>
+                </template>
+            </Timeline>
+            <Timeline :value="jobs" class="w-full md:hidden" :pt="{ eventOpposite: { class: '!hidden' } }">
+                <template #content="slotProps">
+                    <div class="-mt-3 mb-6 text-white bg-slate-700/30 px-2 pt-2 pb-6 rounded">
+                        <p class="text-primary font-bold text-md">
                             {{ slotProps.item.period }}
                         </p>
                         <h3 class="text-3xl mt-2">{{ slotProps.item.name }}</h3>

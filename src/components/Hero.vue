@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="my-4 space-y-8">
+    <div class="space-y-8">
         <div class="text-8xl font-extrabold uppercase text-center text-white">
             I<span class="text-primary">'</span>m Dan<span class="text-primary">.</span>
         </div>

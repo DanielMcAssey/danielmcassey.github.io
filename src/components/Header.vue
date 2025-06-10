@@ -20,7 +20,7 @@ function toggleNavBar() {
     <div class="z-20 fixed top-0 w-full text-white bg-primary-700 shadow">
         <div class="h-16 flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
             <div class="flex flex-row items-center justify-between h-full">
-                <a href="/">
+                <a href="#home">
                     <img src="/src/assets/logo_w.png" class="h-6" alt="GLOKON Logo" loading="lazy" />
                 </a>
                 <button class="rounded hover:bg-primary-100 hover:text-primary p-2 md:hidden focus:outline-none focus:shadow-outline" @click="toggleNavBar">
