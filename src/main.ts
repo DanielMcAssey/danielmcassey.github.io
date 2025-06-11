@@ -42,7 +42,6 @@ createApp(App)
         theme: {
             preset: AppTheme,
             options: {
-                darkModeSelector: 'app-dark',
                 cssLayer: {
                     name: 'primevue',
                     order: 'tailwind-base, primevue, tailwind-utilities, theme'

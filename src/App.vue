@@ -6,7 +6,7 @@ import Hero from './components/Hero.vue';
 import Services from './components/Services.vue';
 import Portfolio from './components/Portfolio.vue';
 import Contact from './components/Contact.vue';
-import Section from './components/Section.vue';
+import Section from './components/partials/Section.vue';
 
 import heroBackground from '/src/assets/backgrounds/hero.png';
 import servicesBackground from '/src/assets/backgrounds/services.png';

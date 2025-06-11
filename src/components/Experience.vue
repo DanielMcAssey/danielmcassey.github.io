@@ -16,12 +16,12 @@ const jobs = [
         <div class="mt-12">
             <Timeline :value="jobs" align="alternate" class="w-full hidden md:block">
                 <template #content="slotProps">
-                    <div class="-mt-3 text-white bg-slate-700/30 px-2 pt-2 pb-6 rounded">
+                    <div class="-mt-3 text-white bg-slate-700/70 px-2 pt-2 pb-6">
                         <p class="text-primary font-bold text-md">
                             {{ slotProps.item.period }}
                         </p>
-                        <h3 class="text-3xl mt-2">{{ slotProps.item.name }}</h3>
-                        <h4 class="font-bold mt-6">{{ slotProps.item.role }}</h4>
+                        <h3 class="text-2xl mt-2 whitespace-nowrap">{{ slotProps.item.name }}</h3>
+                        <h4 class="font-bold mt-4">{{ slotProps.item.role }}</h4>
                         <div class="mt-2 space-y-2 text-white font-text font-light text-sm">
                             <p v-for="descriptionItem in slotProps.item.description">
                                 {{ descriptionItem }}
@@ -32,12 +32,12 @@ const jobs = [
             </Timeline>
             <Timeline :value="jobs" class="w-full md:hidden" :pt="{ eventOpposite: { class: '!hidden' } }">
                 <template #content="slotProps">
-                    <div class="-mt-3 mb-6 text-white bg-slate-700/30 px-2 pt-2 pb-6 rounded">
+                    <div class="-mt-3 mb-6 text-white bg-slate-700/70 px-2 pt-2 pb-6">
                         <p class="text-primary font-bold text-md">
                             {{ slotProps.item.period }}
                         </p>
-                        <h3 class="text-3xl mt-2">{{ slotProps.item.name }}</h3>
-                        <h4 class="font-bold mt-6">{{ slotProps.item.role }}</h4>
+                        <h3 class="text-2xl mt-2 whitespace-nowrap">{{ slotProps.item.name }}</h3>
+                        <h4 class="font-bold mt-4">{{ slotProps.item.role }}</h4>
                         <div class="mt-2 space-y-2 text-white font-text font-light text-sm">
                             <p v-for="descriptionItem in slotProps.item.description">
                                 {{ descriptionItem }}

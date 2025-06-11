@@ -3,24 +3,28 @@
 </script>
 
 <template>
-    <div class="space-y-8">
-        <div class="text-8xl font-extrabold uppercase text-center text-white">
-            I<span class="text-primary">'</span>m Dan<span class="text-primary">.</span>
-        </div>
-        <div class="p-6">
-            <img src="/src/assets/me.jpg" alt="Avatar" class="max-h-44 mx-auto rounded-full shadow border-2 border-white" />
-        </div>
-        <div class="text-2xl uppercase text-white px-8">
-            <p class="font-semibold">
-                IT/Software Consultant
-            </p>
-            <ul class="mt-3 text-xl space-y-1">
-                <li>Full-Stack Developer</li>
-                <li>Software Engineer</li>
-                <li>IT Consultant</li>
-                <li>Network Engineer</li>
-                <li>Dev Ops & More&hellip;</li>
-            </ul>
+    <div>
+        <div class="py-24 px-2">
+            <div class="text-4xl sm:text-6xl md:text-8xl font-extrabold uppercase text-center text-white whitespace-nowrap">
+                I<span class="text-primary">'</span>m Dan<span class="text-primary">.</span>
+            </div>
+            <div class="p-12">
+                <img src="/src/assets/me.jpg" alt="Avatar" class="max-h-44 mx-auto rounded-full shadow border-2 border-white" />
+            </div>
+            <div class="flex">
+                <div class="text-xl sm:text-2xl uppercase text-white mx-auto flex-shrink">
+                    <p class="font-semibold">
+                        IT/Software Consultant
+                    </p>
+                    <ul class="mt-3 text-xl space-y-1">
+                        <li>Full-Stack Developer</li>
+                        <li>Software Engineer</li>
+                        <li>IT Consultant</li>
+                        <li>Network Engineer</li>
+                        <li>Dev Ops & More&hellip;</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="font-text text-center text-white bg-slate-800 hover:bg-slate-700 shadow px-4 py-8">
             <p>

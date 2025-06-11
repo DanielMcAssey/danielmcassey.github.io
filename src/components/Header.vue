@@ -36,7 +36,7 @@ function toggleNavBar() {
     </div>
     <!-- mobile menu -->
     <nav class="z-10 fixed top-16 md:hidden w-full shadow">
-        <div class="absolute z-30 flex flex-col items-center justify-center w-full py-4 gap-2 text-center bg-primary-600"
+        <div class="absolute z-30 flex flex-col items-center justify-center w-full py-4 gap-2 text-center bg-primary-600/90"
             :class="{ block: isOpen, hidden: !isOpen }">
             <NavLink v-for="link in links" :label="link.label" :url="link.url" @click="toggleNavBar" class="w-full py-1 hover:bg-primary-100 font-bold text-lg" />
             <SocialIcons class="mx-auto text-primary-300 text-xl" />
