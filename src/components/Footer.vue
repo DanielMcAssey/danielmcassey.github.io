@@ -24,9 +24,6 @@ import SocialIcons from './partials/SocialIcons.vue';
                 Dimensional Wave Limited, Company Number 08031338
             </p>
             <p>
-                GLOKON Limited, Company Number 08258986
-            </p>
-            <p>
                 QAssist Ltd, Company Number 15192950
             </p>
         </div>
