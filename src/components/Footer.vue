@@ -18,7 +18,7 @@ import SocialIcons from './partials/SocialIcons.vue';
         </div>
         <div class="text-xs space-y-0.5">
             <p>
-                GLOKON is a registered trademark of GLOKON Limited.
+                GLOKON is a registered trademark of QAssist Ltd.
             </p>
             <p>
                 Dimensional Wave Limited, Company Number 08031338
